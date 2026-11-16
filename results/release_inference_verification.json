@@ -1,0 +1,29 @@
+{
+  "extracted_archive_inference": true,
+  "weights_downloaded_at_pinned_revision": true,
+  "legitimate": {
+    "TF-IDF": {
+      "prediction": "Not spam",
+      "uncalibrated_spam_score": 0.16693534539640537
+    },
+    "MiniLM": {
+      "prediction": "Not spam",
+      "uncalibrated_spam_score": 0.000040376313322228955
+    }
+  },
+  "spam": {
+    "TF-IDF": {
+      "prediction": "Spam",
+      "uncalibrated_spam_score": 0.9964807440499831
+    },
+    "MiniLM": {
+      "prediction": "Spam",
+      "uncalibrated_spam_score": 0.984619490921079
+    }
+  },
+  "empty": {
+    "message": "Please enter a non-empty English SMS message."
+  },
+  "weights_match_original_sha256": true,
+  "dependency_environment": "New process and extracted directory; same installed packages, not a fully isolated installation."
+}

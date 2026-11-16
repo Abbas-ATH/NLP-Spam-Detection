@@ -1,0 +1,22 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/228/sms+spam+collection",
+  "download_url": "https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip",
+  "archive_sha256": "1587ea43e58e82b14ff1f5425c88e17f8496bfcdb67a583dbff9eefaf9963ce3",
+  "raw_sha256": "7d039a24a6083ed9ef0f806ebad56bbb976e3aeb8de05669173bfdc4996c239d",
+  "raw_records": 5574,
+  "physical_lines": 5574,
+  "raw_class_counts": {
+    "0": 4827,
+    "1": 747
+  },
+  "malformed_records": [],
+  "missing_text": 0,
+  "exact_duplicate_rows": 403,
+  "conflicting_unique_texts": 0,
+  "quarantined_rows": 0,
+  "clean_records": 5171,
+  "clean_class_counts": {
+    "0": 4518,
+    "1": 653
+  }
+}

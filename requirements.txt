@@ -1,0 +1,18 @@
+# Exact versions used for the executed CPU experiment (Python 3.12.10).
+# For PyTorch CPU wheels, consult https://pytorch.org/get-started/locally/ if needed.
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.7.2
+matplotlib==3.10.7
+torch==2.14.1
+transformers==4.44.2
+sentence-transformers==5.1.2
+huggingface-hub==0.36.2
+joblib==1.6.0
+wordfreq==3.1.1
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==7.1.0
+ipywidgets==8.1.8
+jupyterlab>=4.3,<5

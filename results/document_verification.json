@@ -1,0 +1,12 @@
+{
+  "report_pages": 7,
+  "page_limit": 8,
+  "blank_pages": 0,
+  "seven_required_main_sections": true,
+  "metric_values_match": true,
+  "report_and_appendix_pngs_inspected": true,
+  "docx_pdf_render_engine": "Microsoft Word 16.0; Poppler PNG review",
+  "title_borders_removed": true,
+  "appendix_draft_pages": 1,
+  "appendix_authentic_member_fields_pending": true
+}

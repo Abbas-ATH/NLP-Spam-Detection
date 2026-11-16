@@ -1,0 +1,20 @@
+{
+  "chosen_index": 4,
+  "selected": {
+    "C": 8.0,
+    "class_weight": "None",
+    "n": 771,
+    "accuracy": 0.9922178988326849,
+    "macro_f1": 0.9758074638105598,
+    "spam_precision": 1.0,
+    "spam_recall": 0.9154929577464789,
+    "spam_f1": 0.9558823529411765,
+    "false_positives": 0,
+    "false_positive_rate": 0.0,
+    "false_negatives": 6,
+    "tn": 700,
+    "tp": 65
+  },
+  "threshold": 0.5,
+  "refit_on_development": false
+}

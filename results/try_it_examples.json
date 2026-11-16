@@ -1,0 +1,66 @@
+{
+  "legitimate": {
+    "input": "Please bring your notebook to tomorrow's lab.",
+    "result": {
+      "TF-IDF": {
+        "prediction": "Not spam",
+        "uncalibrated_spam_score": 0.16693534539640537
+      },
+      "MiniLM": {
+        "prediction": "Not spam",
+        "uncalibrated_spam_score": 4.0376313322228955e-05
+      }
+    }
+  },
+  "spam": {
+    "input": "Congratulations! You have won a cash prize. Call now to claim your free reward!",
+    "result": {
+      "TF-IDF": {
+        "prediction": "Spam",
+        "uncalibrated_spam_score": 0.9964807440499831
+      },
+      "MiniLM": {
+        "prediction": "Spam",
+        "uncalibrated_spam_score": 0.984619490921079
+      }
+    }
+  },
+  "misspelled_spam": {
+    "input": "Congratulatinos! You have won a cash prize. Call now to claim your free reward!",
+    "result": {
+      "TF-IDF": {
+        "prediction": "Spam",
+        "uncalibrated_spam_score": 0.9976922749910327
+      },
+      "MiniLM": {
+        "prediction": "Spam",
+        "uncalibrated_spam_score": 0.9822617699942288
+      }
+    }
+  },
+  "ambiguous": {
+    "input": "I have a free ticket for you. Call me after class.",
+    "result": {
+      "TF-IDF": {
+        "prediction": "Not spam",
+        "uncalibrated_spam_score": 0.17673933838501116
+      },
+      "MiniLM": {
+        "prediction": "Not spam",
+        "uncalibrated_spam_score": 0.01448961143020972
+      }
+    }
+  },
+  "empty": {
+    "input": "",
+    "result": {
+      "message": "Please enter a non-empty English SMS message."
+    }
+  },
+  "whitespace": {
+    "input": "   ",
+    "result": {
+      "message": "Please enter a non-empty English SMS message."
+    }
+  }
+}

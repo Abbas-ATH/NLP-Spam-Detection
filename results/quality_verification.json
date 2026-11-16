@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "independent_metric_checks": 154,
+  "verified_applied_edits": 2122,
+  "exact_overlap": 0,
+  "linked_group_overlap": 0,
+  "protected_token_changes": 0,
+  "variants_in_training_or_development": 0,
+  "saved_model_inference": true,
+  "empty_input_handled": true,
+  "scope": "Manual confusion-count arithmetic, split integrity, variant replay, saved artifacts and inference."
+}

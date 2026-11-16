@@ -1,0 +1,13 @@
+{
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_dimension": 384,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "max_seq_length": 256,
+  "frozen": true,
+  "source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+  "parameter_count": 22713216,
+  "weight_file": "model.safetensors",
+  "weights_sha256": "1377e9af0ca0b016a9f2aa584d6fc71ab3ea6804fae21ef9fb1416e2944057ac"
+}

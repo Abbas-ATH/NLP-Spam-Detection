@@ -1,0 +1,22 @@
+{
+  "chosen_index": 10,
+  "selected": {
+    "ngrams": "(1, 2)",
+    "C": 8.0,
+    "class_weight": "None",
+    "n": 771,
+    "accuracy": 0.9896238651102465,
+    "macro_f1": 0.9689738430583501,
+    "spam_precision": 0.9436619718309859,
+    "spam_recall": 0.9436619718309859,
+    "spam_f1": 0.9436619718309859,
+    "false_positives": 4,
+    "false_positive_rate": 0.005714285714285714,
+    "false_negatives": 4,
+    "tn": 696,
+    "tp": 67
+  },
+  "vocabulary_size": 38657,
+  "threshold": 0.5,
+  "refit_on_development": false
+}

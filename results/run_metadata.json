@@ -1,0 +1,40 @@
+{
+  "seed": 20261116,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "torch": "2.14.1",
+    "transformers": "4.44.2",
+    "sentence-transformers": "5.1.2",
+    "huggingface-hub": "0.36.2",
+    "joblib": "1.6.0",
+    "wordfreq": "3.1.1",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "ipykernel": "7.1.0",
+    "ipywidgets": "8.1.8"
+  },
+  "elapsed_seconds": 191.11658970010467,
+  "model": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "embedding_dimension": 384,
+    "device": "cpu",
+    "normalize_embeddings": true,
+    "max_seq_length": 256,
+    "frozen": true,
+    "source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+    "parameter_count": 22713216,
+    "weight_file": "model.safetensors",
+    "weights_sha256": "1377e9af0ca0b016a9f2aa584d6fc71ab3ea6804fae21ef9fb1416e2944057ac"
+  },
+  "completed_utc": "2026-11-16T14:43:42.007655+00:00",
+  "test_manifest_sha256": "553cbb8fe73e122900b3d1ef28382c8bea8673e5b4ea3db43a3b17737d730655",
+  "final_source_sha256": "e83565299dceb853eb7ff1d6499d7e8aaa45b3adddb0ed3ee68bcda752dfd6ec",
+  "final_verified_utc": "2026-11-16T15:11:23.444116+00:00"
+}

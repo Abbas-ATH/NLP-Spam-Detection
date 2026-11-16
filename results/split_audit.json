@@ -1,0 +1,33 @@
+{
+  "seed": 20261116,
+  "target_ratios": {
+    "train": 0.7,
+    "development": 0.15,
+    "test": 0.15
+  },
+  "strategy": "20 stratified group folds; folds 0-13 train, 14-16 development, 17-19 test",
+  "groups": 5024,
+  "near_duplicate_edges_ge_0_92": 232,
+  "largest_group": 12,
+  "exact_text_overlap": 0,
+  "group_overlap": 0,
+  "near_duplicate_cross_split_edges": 0,
+  "counts": {
+    "development": {
+      "total": 771,
+      "ham": 700,
+      "spam": 71
+    },
+    "test": {
+      "total": 781,
+      "ham": 672,
+      "spam": 109
+    },
+    "train": {
+      "total": 3619,
+      "ham": 3146,
+      "spam": 473
+    }
+  },
+  "limitations": "No campaign or sender identifiers exist. Similarity grouping reduces, but cannot rule out, all semantic relationships."
+}
